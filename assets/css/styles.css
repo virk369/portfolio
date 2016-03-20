@@ -1,0 +1,56 @@
+.navbar-brand.navbar-link{
+  padding-top:0;
+}
+
+img{
+  padding:2%;
+}
+
+h2 {
+  font-size: 2em;
+}
+.panel-body{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-bottom: 5%;
+}
+
+media(@min-width:768px) {
+  margin-right: 0;
+}
+.carousel-inner {
+  display:flex;
+  justify-content: center;
+}
+.skillPanel{
+  display:flex;
+  align-content:space-around;
+  flex-wrap:wrap;
+}
+.details {
+  margin-left: 47%;
+}
+footer{
+  width:50px;
+}
+
+.footer{
+  background:#292c2f;
+  padding:1%;
+  bottom:0;
+  position:fixed;
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.material-icons{
+  color:white;
+  margin-right: 40px;
+}
+
+.small{
+  color:white;
+  padding-right:2%;
+}
